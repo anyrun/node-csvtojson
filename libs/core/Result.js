@@ -36,6 +36,7 @@ function _writeObject (data, encoding, cb) {
 };
 
 function _writeBuffer(data, encoding, cb) {
+  /*
   if (encoding === "buffer") {
     encoding = "utf8";
   }
@@ -49,6 +50,7 @@ function _writeBuffer(data, encoding, cb) {
     }
     this.buffer += data.toString(encoding);
   }
+  */
   cb();
 };
 
